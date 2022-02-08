@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignYourOwnAdventure.Core", "DesignYourOwnAdventure.Core\DesignYourOwnAdventure.Core.csproj", "{0550D5EF-D5AC-49F7-9826-5F581EA9EEEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignYourOwnAdventure.Infrastructure", "DesignYourOwnAdventure.Infrastructure\DesignYourOwnAdventure.Infrastructure.csproj", "{578A74DF-A7DD-4089-8242-DD118066F5AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignYourOwnAdventure.Api", "DesignYourOwnAdventure.Api\DesignYourOwnAdventure.Api.csproj", "{820E8A54-5BE4-415C-93AD-7817C26832A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9DDA1964-49AA-4F2D-8332-96F100FD3692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignYourOwnAdventure.UnitTests", "Tests\DesignYourOwnAdventure.UnitTests\DesignYourOwnAdventure.UnitTests.csproj", "{9ED95FDE-3A2A-485F-BE34-998B1FD43322}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignYourOwnAdventure.IntegrationTests", "Tests\DesignYourOwnAdventure.IntegrationTests\DesignYourOwnAdventure.IntegrationTests.csproj", "{B9CCECF7-CC66-40D6-A0C4-B0507931AD7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignYourOwnAdventure.FunctionalTests", "Tests\DesignYourOwnAdventure.FunctionalTests\DesignYourOwnAdventure.FunctionalTests.csproj", "{51725FF2-349B-4039-864F-0661C98EA201}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0550D5EF-D5AC-49F7-9826-5F581EA9EEEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0550D5EF-D5AC-49F7-9826-5F581EA9EEEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0550D5EF-D5AC-49F7-9826-5F581EA9EEEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0550D5EF-D5AC-49F7-9826-5F581EA9EEEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{578A74DF-A7DD-4089-8242-DD118066F5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{578A74DF-A7DD-4089-8242-DD118066F5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{578A74DF-A7DD-4089-8242-DD118066F5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{578A74DF-A7DD-4089-8242-DD118066F5AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{820E8A54-5BE4-415C-93AD-7817C26832A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{820E8A54-5BE4-415C-93AD-7817C26832A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{820E8A54-5BE4-415C-93AD-7817C26832A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{820E8A54-5BE4-415C-93AD-7817C26832A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED95FDE-3A2A-485F-BE34-998B1FD43322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED95FDE-3A2A-485F-BE34-998B1FD43322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED95FDE-3A2A-485F-BE34-998B1FD43322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED95FDE-3A2A-485F-BE34-998B1FD43322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9CCECF7-CC66-40D6-A0C4-B0507931AD7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9CCECF7-CC66-40D6-A0C4-B0507931AD7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9CCECF7-CC66-40D6-A0C4-B0507931AD7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9CCECF7-CC66-40D6-A0C4-B0507931AD7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51725FF2-349B-4039-864F-0661C98EA201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51725FF2-349B-4039-864F-0661C98EA201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51725FF2-349B-4039-864F-0661C98EA201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51725FF2-349B-4039-864F-0661C98EA201}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9ED95FDE-3A2A-485F-BE34-998B1FD43322} = {9DDA1964-49AA-4F2D-8332-96F100FD3692}
+		{B9CCECF7-CC66-40D6-A0C4-B0507931AD7E} = {9DDA1964-49AA-4F2D-8332-96F100FD3692}
+		{51725FF2-349B-4039-864F-0661C98EA201} = {9DDA1964-49AA-4F2D-8332-96F100FD3692}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0357FB4E-3053-438A-86F7-891E34263FDF}
+	EndGlobalSection
+EndGlobal
